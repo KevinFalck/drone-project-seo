@@ -7,15 +7,23 @@
   padding: 40px 0;
 }
 
-.service-img {
-  margin-top: 20px;
+.service-block {
+  display: block;
   position: relative;
-  height: 300px;
-  background: center / cover no-repeat url(/images/service1.png);
-
+  margin-top: 20px;
   border-radius: 13px;
-
+  overflow: hidden; /* Ensures the image corners are rounded */
   transition: .3s;
+}
+
+.services a:hover.service-block {
+  box-shadow: 4px 3px 14px -1px rgba(0, 0, 0, 0.26);
+}
+
+.service-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .service-img-1 {
@@ -34,11 +42,7 @@
   background-image: url(/images/service5.png);
 }
 
-.services a:hover .service-img {
-  box-shadow: 4px 3px 14px -1px rgba(0, 0, 0, 0.26);
-}
-
-.service-img p {
+.service-label {
   padding: 30px;
   position: absolute;
   top: 20px;
