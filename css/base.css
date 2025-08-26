@@ -5,9 +5,9 @@
 }
 
 a:hover {
-  color: #0F4C81;
+  color: #0f4c81;
 
-  transition: .3s;
+  transition: 0.3s;
 }
 
 /* typographies */
@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .bold {
@@ -36,8 +36,8 @@ body {
 
 .text-center {
   text-align: center;
-} 
+}
 
 .bg-light {
-  background-color: #B8D4D4;
+  background-color: #b8d4d4;
 }

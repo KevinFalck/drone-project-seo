@@ -24,7 +24,7 @@
   padding: 10px 0;
   text-align: center;
 
-  background-color: #0F4C81;
+  background-color: #0f4c81;
 }
 
 .footer-social-networks a {
@@ -32,7 +32,7 @@
 }
 
 .footer-social-networks a:hover {
-  color:#031322;
+  color: #031322;
 }
 
 @media only screen and (min-width: 768px) {

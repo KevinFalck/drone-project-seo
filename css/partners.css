@@ -1,6 +1,5 @@
 .block-partner {
   text-align: center;
-
 }
 
 .partners {
@@ -19,7 +18,7 @@
   margin: 10px 0;
 }
 
-@media only screen and (min-width: 600px) { 
+@media only screen and (min-width: 600px) {
   .presse-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,8 +26,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) { 
-
+@media only screen and (min-width: 768px) {
   .presse-images {
     margin: 0 auto;
     width: 500px;
